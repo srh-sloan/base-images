@@ -8,5 +8,3 @@ FROM base as dev-base
 WORKDIR /app
 COPY requirements-dev.txt requirements-dev.txt
 RUN pip install -r requirements-dev.txt
-
-CMD sleep infinity
