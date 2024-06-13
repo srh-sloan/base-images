@@ -9,4 +9,3 @@ WORKDIR /app
 COPY requirements-dev.txt requirements-dev.txt
 RUN pip install -r requirements-dev.txt
 RUN pip install pip-tools
-RUN pre-commit install
